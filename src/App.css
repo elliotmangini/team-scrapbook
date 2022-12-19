@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+* {
+  background-color: rgb(19, 19, 19);
+  color: rgb(222, 222, 222);
+  text-align: center;
+}
+
+.title {
+  color: rgb(192, 192, 192);
+}
+
+.spacer5 {
+  height: 5vh;
+}
+
+.blurb {
+  font-style: oblique;
+}
