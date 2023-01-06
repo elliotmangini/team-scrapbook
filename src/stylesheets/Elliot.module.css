@@ -2,6 +2,9 @@
     color: hotpink;
 }
 
+.post_name {
+  color: rgb(101, 190, 206);
+}
 
 /* COOL CIRCLE */
 
@@ -81,4 +84,24 @@
   svg{
     width: 0;
     height: 0;
+  }
+
+  .outer_fade_container {
+    /* parameter 2 is the upper fade distance, param 3 is lower */
+    mask-image: linear-gradient(transparent 0%, black 20%, black 80%, transparent);
+  }
+  
+  .inner_fade_container {
+    /* centering */
+    margin: auto;
+    /* creating shape and size */
+    width: 40%;
+    height: 200px;
+    /* sets it to scroll anything not in bounds */
+    overflow-y: auto;
+  }
+
+  .content_container {
+    /* insets the content */
+    margin: 25px;
   }
